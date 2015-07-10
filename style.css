@@ -1,0 +1,18 @@
+#tabla{
+    background-color:dodgerblue;
+    text-align: center;
+    border-style: dashed;
+    margin: auto;
+    width: 75%;
+    
+}
+}
+body{
+	text-align: center;
+}
+
+    
+#tabla tr:nth-child(odd) td:nth-child(even), 
+#tabl tr:nth-child(even) td:nth-child(odd){
+	background: #ff5550;
+}
